@@ -1,0 +1,44 @@
+ RAMIFICACAO: MINIMO (Limite de Planck Absoluto)
+   * Vetor Radial (3D):   1.6163e-35 metros
+   * Densidade Energia:   4.6293e+90 J/m^3
+   * Frequencia das 5D:   8.4312e+42 Hz
+   [OK] SISTEMA SUSTENTADO EM CONFINAMENTO 5D DINAMICO!
+   * CHANCE DE ACERTO REAL: 100.000000000000%
+   --------------------------------------------------------------
+-> RAMIFICACAO: MEDIO-BAIXO (Inicio da Faixa Quantica)
+   * Vetor Radial (3D):   1.6163e-32 metros
+   * Densidade Energia:   4.6293e+81 J/m^3
+   * Frequencia das 5D:   8.4312e+39 Hz
+   [OK] SISTEMA SUSTENTADO EM CONFINAMENTO 5D DINAMICO!
+   * CHANCE DE ACERTO REAL: 100.000000000000%
+   --------------------------------------------------------------
+-> RAMIFICACAO: MEDIO (Seu Tracado Base)
+   * Vetor Radial (3D):   1.6163e-29 metros
+   * Densidade Energia:   4.6293e+72 J/m^3
+   * Frequencia das 5D:   8.4312e+36 Hz
+   [OK] SISTEMA SUSTENTADO EM CONFINAMENTO 5D DINAMICO!
+   * CHANCE DE ACERTO REAL: 99.999999999976%
+   --------------------------------------------------------------
+-> RAMIFICACAO: MEDIO-ALTO (Aceleracao de Giro)
+   * Vetor Radial (3D):   1.6163e-27 metros
+   * Densidade Energia:   4.6293e+66 J/m^3
+   * Frequencia das 5D:   8.4312e+34 Hz
+   [OK] SISTEMA SUSTENTADO EM CONFINAMENTO 5D DINAMICO!
+   * CHANCE DE ACERTO REAL: 99.999999997606%
+   --------------------------------------------------------------
+-> RAMIFICACAO: ALTO (Seu Registro de Resistencia)
+   * Vetor Radial (3D):   1.6163e-25 metros
+   * Densidade Energia:   4.6293e+60 J/m^3
+   * Frequencia das 5D:   8.4312e+32 Hz
+   [OK] SISTEMA SUSTENTADO EM CONFINAMENTO 5D DINAMICO!
+   * CHANCE DE ACERTO REAL: 99.999999760592%
+   --------------------------------------------------------------
+-> RAMIFICACAO: ALTO+ALTO (O Limite Fisico Extremo)
+   * Vetor Radial (3D):   1.6163e-23 metros
+   * Densidade Energia:   4.6293e+54 J/m^3
+   * Frequencia das 5D:   8.4312e+30 Hz
+   [OK] SISTEMA SUSTENTADO EM CONFINAMENTO 5D DINAMICO!
+   * CHANCE DE ACERTO REAL: 99.999976059222%
+   --------------------------------------------------------------
+
+(Conta rodando em 5D)

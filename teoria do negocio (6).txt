@@ -1,0 +1,51 @@
+==================================================================
+   TELEMETRIA SUPREMA: TODAS AS RAMIFICACOES DO ELETRON-CORDA 3D
+==================================================================
+Massa do Eletron em Analise:      9.1094e-31 kg
+Horizonte de Eventos (Raio R_s):  1.4852e-16 metros
+
+-> RAMIFICACAO: MINIMO (Limite de Planck Absoluto)
+   * Vetor Radial (3D):   1.6163e-35 metros
+   * Densidade Energia:   4.6293e+90 J/m^3
+   * Frequencia das 11D:  1.8549e+43 Hz
+   [OK] SISTEMA SUSTENTADO EM CONFINAMENTO DINAMICO!
+   * CHANCE DE ACERTO REAL: 100.000000000000%
+   --------------------------------------------------------------
+-> RAMIFICACAO: MEDIO-BAIXO (Inicio da Faixa Quantica)
+   * Vetor Radial (3D):   1.6163e-32 metros
+   * Densidade Energia:   4.6293e+81 J/m^3
+   * Frequencia das 11D:  1.8549e+40 Hz
+   [OK] SISTEMA SUSTENTADO EM CONFINAMENTO DINAMICO!
+   * CHANCE DE ACERTO REAL: 100.000000000000%
+   --------------------------------------------------------------
+-> RAMIFICACAO: MEDIO (Seu Traçado Base Original)
+   * Vetor Radial (3D):   1.6163e-29 metros
+   * Densidade Energia:   4.6293e+72 J/m^3
+   * Frequencia das 11D:  1.8549e+37 Hz
+   [OK] SISTEMA SUSTENTADO EM CONFINAMENTO DINAMICO!
+   * CHANCE DE ACERTO REAL: 99.999999999989%
+   --------------------------------------------------------------
+-> RAMIFICACAO: MEDIO-ALTO (Aceleração de Giro)
+   * Vetor Radial (3D):   1.6163e-27 metros
+   * Densidade Energia:   4.6293e+66 J/m^3
+   * Frequencia das 11D:  1.8549e+35 Hz
+   [OK] SISTEMA SUSTENTADO EM CONFINAMENTO DINAMICO!
+   * CHANCE DE ACERTO REAL: 99.999999998912%
+   --------------------------------------------------------------
+-> RAMIFICACAO: ALTO (Seu Registro de Resistencia)
+   * Vetor Radial (3D):   1.6163e-25 metros
+   * Densidade Energia:   4.6293e+60 J/m^3
+   * Frequencia das 11D:  1.8549e+33 Hz
+   [OK] SISTEMA SUSTENTADO EM CONFINAMENTO DINAMICO!
+   * CHANCE DE ACERTO REAL: 99.999999891178%
+   --------------------------------------------------------------
+-> RAMIFICACAO: ALTO+ALTO (O Limite Físico Extremo do Sistema)
+   * Vetor Radial (3D):   1.6163e-23 metros
+   * Densidade Energia:   4.6293e+54 J/m^3
+   * Frequencia das 11D:  1.8549e+31 Hz
+   [OK] SISTEMA SUSTENTADO EM CONFINAMENTO DINAMICO!
+   * CHANCE DE ACERTO REAL: 99.999989117828%
+   --------------------------------------------------------------
+
+
+Essas são todas as variantes calculadas com python (mpmath) do mínimo até o alto+alto o limite considerando a nossa física do universo atual (o código funciona perfeitamente em 5D ou mais apenas terá um decaimento dos números)
