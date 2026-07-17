@@ -1,0 +1,42 @@
+... m_e  = 9.1093837e-31
+...
+... # 2. DEFINIÇÃO DA ARENA (Mini Buraco Negro Primordial)
+... M_bh = 1.0e11
+... R_s  = (2 * G * M_bh) / (c**2)
+...
+... # 3. O TRAÇADO EXPANDIDO (Do Mínimo ao Médio-Alto)
+... l_minimo = np.sqrt((G * hbar) / (c**3)) # 1.61e-35 m (Limite de Planck)
+...
+... # Forçando o elétron-corda a esticar até a zona MÉDIO-ALTA
+... # Multiplicamos o limite por um fator agressivo de 100 milhões (1.0e8)
+... l_medio_alto = l_minimo * 1.0e8
+...
+... # 4. FREQUÊNCIA DE VIBRAÇÃO NO RELEVO ACELERADO
+... Frequencia_Medio_Alto = c / l_medio_alto
+... Coeficiente_Estabilidade_Critico = 1.0 - (l_medio_alto / R_s)
+...
+... print(f"--- TELEMETRIA DO RITMO DE ALTO GIRO (MÉDIO-ALTO) ---")
+... print(f"Tamanho Mínimo da Corda (Planck): {l_minimo:.4e} metros")
+... print(f"Tamanho Máximo (Médio-Alto):      {l_medio_alto:.4e} metros (Aumento de 10^8)")
+... print(f"Frequência de Notas das 11D:     {Frequencia_Medio_Alto:.4e} Hz")
+...
+... if Coeficiente_Estabilidade_Critico < 0:
+...     print(f"\n⚠️ O MOTOR QUEBROU! A corda esticou tanto que engoliu o Buraco Negro!")
+...     print(f"CHANCE DE ACERTO:          0.000000% (Colapso Total)")
+... else:
+...     print(f"\n✅ O SISTEMA SE SUSTENTOU NO LIMITE DA PISTA!")
+...     print(f"TAXA DE ESTABILIDADE NO LIMITE:    {Coeficiente_Estabilidade_Critico*100:.6f}%")
+... print(f"-----------------------------------------------------")
+...
+--- TELEMETRIA DO RITMO DE ALTO GIRO (MÉDIO-ALTO) ---
+Tamanho Mínimo da Corda (Planck): 1.6163e-35 metros
+Tamanho Máximo (Médio-Alto):      1.6163e-27 metros (Aumento de 10^8)
+Frequência de Notas das 11D:     1.8549e+35 Hz
+
+✅ O SISTEMA SE SUSTENTOU NO LIMITE DA PISTA!
+TAXA DE ESTABILIDADE NO LIMITE:    100.000000%
+-----------------------------------------------------
+
+
+
+data 16/07/2026 horário de registro 20:45

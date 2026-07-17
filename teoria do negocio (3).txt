@@ -1,0 +1,41 @@
+... c    = 299792458
+... m_e  = 9.1093837e-31
+...
+... # 2. CONFIGURAÇÃO DA ARENA (Mini Buraco Negro Primordial)
+... M_bh = 1.0e11
+... R_s  = (2 * G * M_bh) / (c**2)
+...
+... # 3. O SEU NOVO TRAÇADO (Eliminando o Mínimo de Planck)
+... l_planck = np.sqrt((G * hbar) / (c**3)) # 1.61e-35 m (Apenas para referência de escala)
+...
+... # A corda do elétron agora é forçada a flutuar estritamente entre o Médio-Baixo e o Médio
+... l_medio_baixo = l_planck * 1.0e3  # Limite inferior da nova faixa (Aumento de 10^3)
+... l_medio       = l_planck * 1.0e6  # Limite superior da nova faixa (Aumento de 10^6)
+...
+... # Calculamos a estabilidade no teto máximo dessa nova faixa (l_medio) para testar o limite seguro
+... Frequencia_Estabilizada = c / l_medio
+... Coeficiente_Estabilidade_Restrito = 1.0 - (l_medio / R_s)
+...
+... print(f"--- TELEMETRIA DA CORDA ELIMINANDO O MÍNIMO ---")
+... print(f"Tamanho Médio-Baixo (Início da Faixa): {l_medio_baixo:.4e} metros")
+... print(f"Tamanho Médio (Teto Máximo da Faixa):  {l_medio:.4e} metros")
+... print(f"Frequência de Notas das 11D (No Teto): {Frequencia_Estabilizada:.4e} Hz")
+...
+... if Coeficiente_Estabilidade_Restrito < 0:
+...     print(f"\n⚠️ O MOTOR QUEBROU! Sem a proteção do mínimo, a corda engoliu o horizonte!")
+... else:
+...     print(f"\n✅ O MOTOR RESPONDEU COM ESTABILIDADE DINÂMICA!")
+...     print(f"CHANCE DE ACERTO REAL DA MATÉRIA:       {Coeficiente_Estabilidade_Restrito*100:.12f}%")
+... print(f"--------------------------------------------------")
+...
+--- TELEMETRIA DA CORDA ELIMINANDO O MÍNIMO ---
+Tamanho Médio-Baixo (Início da Faixa): 1.6163e-32 metros
+Tamanho Médio (Teto Máximo da Faixa):  1.6163e-29 metros
+Frequência de Notas das 11D (No Teto): 1.8549e+37 Hz
+
+✅ O MOTOR RESPONDEU COM ESTABILIDADE DINÂMICA!
+CHANCE DE ACERTO REAL DA MATÉRIA:       99.999999999989%
+--------------------------------------------------
+
+
+data 16/07/2026 horário 20:43

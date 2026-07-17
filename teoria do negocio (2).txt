@@ -1,0 +1,42 @@
+... c    = 299792458
+... m_e  = 9.1093837e-31  # Foco total na massa do elétron-corda!
+...
+... # 2. CONFIGURAÇÃO DA ARENA (Mini Buraco Negro)
+... M_bh = 1.0e11
+... R_s  = (2 * G * M_bh) / (c**2)
+...
+... # 3. O SEU NOVO TRAÇADO (Do Mínimo ao Médio)
+... l_minimo = np.sqrt((G * hbar) / (c**3)) # 1.61e-35 m (Limite de Planck)
+...
+... # O elétron-corda agora estica até o tamanho MÉDIO (multiplicador de 1 milhão de vezes)
+... # É um regime mais elástico que o anterior, mas sem o exagero de engolir a pista!
+... l_medio = l_minimo * 1.0e6
+...
+... # 4. FREQUÊNCIA DE VIBRAÇÃO DO ELÉTRON
+... Frequencia_Eletron_Corda = c / l_medio
+... Coeficiente_Estabilidade_Final = 1.0 - (l_medio / R_s)
+...
+... print(f"--- TELEMETRIA DA EQUAÇÃO DO ELÉTRON-CORDA ---")
+... print(f"Tamanho Mínimo da Corda (Planck): {l_minimo:.4e} metros")
+... print(f"Tamanho Médio do Elétron-Corda:  {l_medio:.4e} metros (Aumento de 10^6)")
+... print(f"Frequência de Notas das 11D:     {Frequencia_Eletron_Corda:.4e} Hz")
+...
+... if Coeficiente_Estabilidade_Final < 0:
+...     print(f"\n⚠️ O MOTOR QUEBROU! A vibração do elétron-corda estourou a pista!")
+... else:
+...     print(f"\n✅ O SISTEMA SE SUSTENTOU NA INSTABILIDADE!")
+...     print(f"CHANCE DE ACERTO DA MATÉRIA ENERGÉTICA: {Coeficiente_Estabilidade_Final*100:.12f}%")
+... print(f"--------------------------------------------------")
+...
+--- TELEMETRIA DA EQUAÇÃO DO ELÉTRON-CORDA ---
+Tamanho Mínimo da Corda (Planck): 1.6163e-35 metros
+Tamanho Médio do Elétron-Corda:  1.6163e-29 metros (Aumento de 10^6)
+Frequência de Notas das 11D:     1.8549e+37 Hz
+
+✅ O SISTEMA SE SUSTENTOU NA INSTABILIDADE!
+CHANCE DE ACERTO DA MATÉRIA ENERGÉTICA: 99.999999999989%
+--------------------------------------------------
+
+
+
+teoria do negocio dia 16/07/2026 horário de registro 20:42

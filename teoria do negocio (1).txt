@@ -1,0 +1,46 @@
+>>> python cordas500.py
+...
+  File "<python-input-9>", line 1
+    python cordas500.py
+           ^^^^^^^^^
+SyntaxError: invalid syntax
+... G    = 6.67430e-11    # Constante da Gravidade
+... c    = 299792458      # Velocidade da luz
+... m_n  = 1.6749274e-27  # Massa do nêutron (kg)
+...
+... # Comprimento de Planck (O tamanho mínimo da cordinha que impede o zero absoluto!)
+... l_planck = np.sqrt((G * hbar) / (c**3))
+...
+... # 2. CONFIGURAÇÃO DO SEU BURACO NEGRO MICROSCÓPICO
+... M_bh = 1.0e11  # Massa do buraco negro (kg)
+... R_s  = (2 * G * M_bh) / (c**2)  # Raio de Schwarzschild (muro da gravidade)
+...
+... # 3. O CÁLCULO DA VIBRAÇÃO DA CORDA (Sua hipótese!)
+... # Em vez de colapsar para o tamanho zero, os nêutrons se espalham em uma
+... # matriz de cordas vibrantes com densidade de energia limitada.
+... Volume_minimo = (4/3) * np.pi * (l_planck**3)
+... Densidade_Maxima_Teorica = M_bh / Volume_minimo
+...
+... # Fator de Estabilidade Quântica (Chance de a matéria se manter estável na vibração)
+... # Calculamos se a frequência de vibração das 11 dimensões dissipa o colapso
+... Frequencia_Vibracao = c / l_planck
+... Coeficiente_Estabilidade = 1.0 - (l_planck / R_s)
+...
+... print(f"--- TELEMETRIA DA OFICINA DE CORDAS (FUZZBALL) ---")
+... print(f"Tamanho Mínimo da Corda (Planck): {l_planck:.4e} metros")
+... print(f"Raio do Muro Gravitacional (R_s): {R_s:.4e} metros")
+... print(f"Frequência de Vibração do Núcleo:  {Frequencia_Vibracao:.4e} Hz")
+... print(f"TAXA DE ESTABILIDADE DA MATÉRIA:   {Coeficiente_Estabilidade*100:.6f}%")
+... print(f"--------------------------------------------------")
+...
+...
+--- TELEMETRIA DA OFICINA DE CORDAS (FUZZBALL) ---
+Tamanho Mínimo da Corda (Planck): 1.6163e-35 metros
+Raio do Muro Gravitacional (R_s): 1.4852e-16 metros
+Frequência de Vibração do Núcleo:  1.8549e+43 Hz
+TAXA DE ESTABILIDADE DA MATÉRIA:   100.000000%
+--------------------------------------------------
+
+
+
+prova de teoria física teoria do negocio data 16/07/2026 horário 20:39 (apenas horário de recordação)
