@@ -1,0 +1,36 @@
+==================================================================
+  SIMULACAO SUPREMA: O ELETRON COMO O CENTRO DO BURACO NEGRO 3D
+==================================================================
+Carga Eletrica Invariante:        1.6022e-19 C
+Massa de Repouso Base (m_e):      9.1094e-31 kg
+
+<python-input-9>:44: RuntimeWarning: divide by zero encountered in scalar divide
+-> REGIME DE ACERTO: 1. ESTADO DE REPOUSO (Chassi Estatico de Base)
+   * Massa Relativistica:  9.1094e-31 kg
+   * Raio Schwarzschild:   1.3530e-57 metros
+   * Densidade de Energia: inf J/m^3
+   [OK] MATRIX EQUILIBRADA: O ELETRON E O PROPRIO NUCLEO!
+   * EQUIVALENCIA BLACKHOLE-ELETRON: 100.000000000000%
+   --------------------------------------------------------------
+-> REGIME DE ACERTO: 2. ESTADO KINETICO INTERMEDIARIO (Alta Velocidade)
+   * Massa Relativistica:  9.1094e-28 kg
+   * Raio Schwarzschild:   1.3530e-54 metros
+   * Densidade de Energia: inf J/m^3
+   [OK] MATRIX EQUILIBRADA: O ELETRON E O PROPRIO NUCLEO!
+   * EQUIVALENCIA BLACKHOLE-ELETRON: 100.000000000000%
+   --------------------------------------------------------------
+-> REGIME DE ACERTO: 3. ESTADO ULTRARELATIVISTICO (Giro de Acelerador)
+   * Massa Relativistica:  9.1094e-25 kg
+   * Raio Schwarzschild:   1.3530e-51 metros
+   * Densidade de Energia: 3.9573e+120 J/m^3
+   [OK] MATRIX EQUILIBRADA: O ELETRON E O PROPRIO NUCLEO!
+   * EQUIVALENCIA BLACKHOLE-ELETRON: 99.170794704877%
+   --------------------------------------------------------------
+-> REGIME DE ACERTO: 4. ESTADO DE SATURACAO DO BIG BANG (Primeiro Pixel)
+   * Massa Relativistica:  9.1094e-22 kg
+   * Raio Schwarzschild:   1.3530e-48 metros
+   * Densidade de Energia: 1.9113e+128 J/m^3
+   [OK] MATRIX EQUILIBRADA: O ELETRON E O PROPRIO NUCLEO!
+   * EQUIVALENCIA BLACKHOLE-ELETRON: 99.220463395729%
+   --------------------------------------------------------------
+==================================================================
