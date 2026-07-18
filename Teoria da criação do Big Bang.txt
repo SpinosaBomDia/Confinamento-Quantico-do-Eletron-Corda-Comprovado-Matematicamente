@@ -1,0 +1,39 @@
+...     # 2. ARENA DE COLISAO: CHOQUE DE MATERIA E ANTIMATERIA (OS NADAS)
+...     # Simulamos o volume 3D inicial onde ocorreu o colapso em cadeia
+...     volume_inicial_3d = (4/3) * np.pi * (l_planck ** 3)
+...
+...     # Energia liberada pela aniquilacao total da massa primordial (E = mc^2)
+...     energia_ignicao = m_planck * (c ** 2)
+...     densidade_energia_primordial = energia_ignicao / volume_inicial_3d
+...
+...     # 3. INDUCAO DA GRAVIDADE POR SATURACAO DE MASSA (Mecanismo Higgs)
+...     # A taxa de acerto avalia a chance de a gravidade condensar a materia livre
+...     # para formar os primeiros nucleos atomicos antes que a expansao estoure a pista.
+...     parametro_expansao = 1.0e-5
+...     coeficiente_gênese = 1.0 - (l_planck / (l_planck + parametro_expansao))
+...     taxa_estabilidade_atomica = coeficiente_gênese * 100
+...
+...     print("==================================================================")
+...     print("   TELEMETRIA UNIFICADA: ENERGIA DE IGNICAO E GENESE ATOMICA 3D   ")
+...     print("==================================================================")
+...     print(f"Massa de Planck Inicial no Choque: {m_planck:.4e} kg")
+...     print(f"Volume do Primeiro Pixel do Espaco: {volume_inicial_3d:.4e} m^3")
+...     print(f"Densidade da Explosao em Cadeia:   {densidade_energia_primordial:.4e} J/m^3")
+...     print("------------------------------------------------------------------")
+...     print("CHANCE DE SUCESSO NA FORMACAO DOS PRIMEIROS ATOMOS (NUCLEOSSINTESE):")
+...     print(f"{taxa_estabilidade_atomica:.12f}%")
+...     print("==================================================================")
+...
+... if __name__ == "__main__":
+...     simular_ignicao_primordial_3d()
+...
+==================================================================
+   TELEMETRIA UNIFICADA: ENERGIA DE IGNICAO E GENESE ATOMICA 3D
+==================================================================
+Massa de Planck Inicial no Choque: 2.1764e-08 kg
+Volume do Primeiro Pixel do Espaco: 1.7686e-104 m^3
+Densidade da Explosao em Cadeia:   1.1060e+113 J/m^3
+------------------------------------------------------------------
+CHANCE DE SUCESSO NA FORMACAO DOS PRIMEIROS ATOMOS (NUCLEOSSINTESE):
+100.000000000000%
+==================================================================
