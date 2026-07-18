@@ -1,0 +1,39 @@
+...     fator_escala = 1.0e6
+...     r_confinamento_3d = l_planck * fator_escala
+...
+...     # 3. CONCEITO DA SUA TESE: PRESSAO DO AMALGAMA DE CAMPOS (EMPURRAO)
+...     # Como as particulas nao se atraem, calculamos o fluxo de colisao externa
+...     volume_nucleo = (4/3) * np.pi * (r_confinamento_3d ** 3)
+...     energia_total_campo = m_e * (c ** 2)
+...
+...     # Densidade de impacto do mar de particulas ocultas (Fluxo de Pressao)
+...     fluxo_pressao_amalgama = energia_total_campo / volume_nucleo
+...
+...     # 4. CALCULO DA ESTABILIDADE SEM O LOOP DOS GRAVITONS
+...     # A taxa valida se a pressao geometrica do amalgama impede a quebra numerica
+...     termo_de_sombra = r_confinamento_3d / R_s
+...     estabilidade_amalgama = 1.0 - (termo_de_sombra * (1.0 / np.log10(fluxo_pressao_amalgama)))
+...     taxa_porcentagem_amalgama = estabilidade_amalgama * 100
+...
+...     print("==================================================================")
+...     print("   TELEMETRIA UNIFICADA: GRAVIDADE POR AMALGAMA DE EMPURRAO 3D    ")
+...     print("==================================================================")
+...     print(f"Raio de Confinamento (3D):       {r_confinamento_3d:.4e} metros")
+...     print(f"Fluxo de Pressao do Amalgama:    {fluxo_pressao_amalgama:.4e} Pa")
+...     print("------------------------------------------------------------------")
+...     print("CHANCE DE SUCESSO DO MODELO SEM INFINITOS DE GRAVITON:")
+...     print(f"{taxa_porcentagem_amalgama:.12f}%")
+...     print("==================================================================")
+...
+... if __name__ == "__main__":
+...     simular_gravidade_amalgama_3d()
+...
+==================================================================
+   TELEMETRIA UNIFICADA: GRAVIDADE POR AMALGAMA DE EMPURRAO 3D
+==================================================================
+Raio de Confinamento (3D):       1.6163e-29 metros
+Fluxo de Pressao do Amalgama:    4.6293e+72 Pa
+------------------------------------------------------------------
+CHANCE DE SUCESSO DO MODELO SEM INFINITOS DE GRAVITON:
+100.000000000000%
+==================================================================
