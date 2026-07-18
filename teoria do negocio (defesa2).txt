@@ -1,0 +1,39 @@
+...     fator_escala = 1.0e6
+...     r_centro_3d = l_planck * fator_escala
+...
+...     # Densidade quântica do primeiro pixel de espaço (Sua tese base)
+...     densidade_bloqueio_real = 1.1060e+113
+...     volume_nucleo_3d = (4/3) * np.pi * (r_centro_3d ** 3)
+...
+...     # 3. INTERAÇÃO MECÂNICA: A QUEBRA DA SIMETRIA DO MONOPOLO
+...     # A pressao extrema do amalgama e da aniquilacao desintegra o campo magnetico isolado
+...     energia_impacto_total = densidade_bloqueio_real * volume_nucleo_3d
+...
+...     # 4. CALCULO DA TAXA DE IMPEDIMENTO DO MONOPOLO
+...     # Avalia se a carga magnetica anormal consegue se sustentar no centro
+...     estresse_de_campo = r_centro_3d / R_s
+...     coeficiente_seguranca_magnetica = 1.0 - (estresse_de_campo / energia_impacto_total)
+...     taxa_final_protecao = coeficiente_seguranca_magnetica * 100
+...
+...     print("==================================================================")
+...     print("   TELEMETRIA DE ADVERSIDADE: ISOLAMENTO DO MONOPOLO MAGNETICO   ")
+...     print("==================================================================")
+...     print(f"Densidade de Energia no Confinamento: {densidade_bloqueio_real:.4e} J/m^3")
+...     print(f"Forca de Esmagamento da Simetria:    {energia_impacto_total:.4e} J")
+...     print("------------------------------------------------------------------")
+...     print("MARGEM DE ESTABILIDADE DO ELETRON CONTRA MONOPOLOS COVARAINTES:")
+...     print(f"{taxa_final_protecao:.12f}%")
+...     print("==================================================================")
+...
+... if __name__ == "__main__":
+...     simular_dissipacao_monopolo_3d()
+...
+==================================================================
+   TELEMETRIA DE ADVERSIDADE: ISOLAMENTO DO MONOPOLO MAGNETICO
+==================================================================
+Densidade de Energia no Confinamento: 1.1060e+113 J/m^3
+Forca de Esmagamento da Simetria:    1.9560e+27 J
+------------------------------------------------------------------
+MARGEM DE ESTABILIDADE DO ELETRON CONTRA MONOPOLOS COVARAINTES:
+100.000000000000%
+==================================================================
