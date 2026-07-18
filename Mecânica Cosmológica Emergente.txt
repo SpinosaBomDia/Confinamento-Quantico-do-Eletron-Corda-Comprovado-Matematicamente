@@ -1,0 +1,35 @@
+==================================================================
+   TELEMETRIA DE GENESE: MATRIZ DE INVERSAO ATOMICA-BH 3D
+==================================================================
+Raio Critico de Planck (Micro-BH): 1.6163e-35 metros
+Raio de Bohr Geometrico (Atomo):    5.2918e-11 metros
+
+-> REGIME: 1. CONDENSACAO DO VACUO PRIMORDIAL
+   * Densidade da Prensa Externa: 2.4232e+20 J/m^3
+   * Raio Efetivo do Micro-BH:    1.6163e-35 metros
+   [OK] EQUILIBRIO MATRIZ: O micro-BH suporta a nuvem atomica.
+   * ESTABILIDADE DO SISTEMA: 100.000000000000%
+   --------------------------------------------------------------
+-> REGIME: 2. EXPANSAO ADIABATICA DA MATERIA
+   * Densidade da Prensa Externa: 2.4232e+22 J/m^3
+   * Raio Efetivo do Micro-BH:    1.6163e-35 metros
+   [OK] EQUILIBRIO MATRIZ: O micro-BH suporta a nuvem atomica.
+   * ESTABILIDADE DO SISTEMA: 100.000000000000%
+   --------------------------------------------------------------
+-> REGIME: 3. PRENSA ATOMICA DE ALTA DENSIDADE
+   * Densidade da Prensa Externa: 2.4232e+24 J/m^3
+   * Raio Efetivo do Micro-BH:    1.6163e-35 metros
+   [OK] EQUILIBRIO MATRIZ: O micro-BH suporta a nuvem atomica.
+   * ESTABILIDADE DO SISTEMA: 100.000000000000%
+   --------------------------------------------------------------
+-> REGIME: 4. TRANSICAO DE FASE FINAL (INVERSION)
+   * Densidade da Prensa Externa: 2.4232e+26 J/m^3
+   * Raio Efetivo do Micro-BH:    1.6163e-35 metros
+   [OK] EQUILIBRIO MATRIZ: O micro-BH suporta a nuvem atomica.
+   * ESTABILIDADE DO SISTEMA: 100.000000000000%
+   --------------------------------------------------------------
+==================================================================
+
+
+
+2.4232e+26 J/m^3
