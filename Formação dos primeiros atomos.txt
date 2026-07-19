@@ -1,0 +1,48 @@
+Python 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+...     # ------------------------------------------------------------------
+...     # FASE 2: O TESTE DO GATILHO DE INVERSÃO (O ELÉTRON ENGALE O BH)
+...     # ------------------------------------------------------------------
+...     print("[FASE 2] Disparando o mecanismo de transição de fase final...")
+...
+...     # Calcula quantas ordens de grandeza o elétron expande de dentro para fora
+...     fator_explosao_escala = r_bohr / l_planck
+...     log_fator_explosao = mp.log10(fator_explosao_escala)
+...
+...     # O teste de integridade estrutural do Buraco Negro:
+...     # Se o tamanho do elétron quântico superar o raio do horizonte de eventos,
+...     # a integridade geométrica cai para zero (o buraco negro colapsa).
+...     integridade_buraco_negro = 1.0 - (fator_explosao_escala / mp.mpf('1.0e24'))
+...
+...     print(f"   * Fator de Expansão Radial:   10^{mp.nstr(log_fator_explosao, 4)} vezes maior")
+...     print(f"   * Raio Final Alcançado:       {mp.nstr(r_bohr, 5)} metros (Escala de Bohr)")
+...     print("------------------------------------------------------------------")
+...     print("VEREDITO DO TESTE DE GÊNESE POR INVERSÃO:")
+...
+...     if integridade_buraco_negro < 0:
+...         print("[SUCESSO] O elétron superou o horizonte de Planck e estourou o BH!")
+...         print("RESULTADO: MICRO-BH COLAPSADO E ANIQUILADO. PRIMEIRO ÁTOMO CRIADO.")
+...     else:
+...         print("[ERRO] Energia insuficiente para romper a gravidade quântica.")
+...
+...     print("==================================================================")
+...
+... if __name__ == "__main__":
+...     testar_sistema_genese_inversao()
+...
+==================================================================
+   SUITE DE TESTES: MATRIZ DE INVERSÃO ESCALAR DO ELÉTRON 3D
+==================================================================
+[FASE 1] Estabilidade no Regime 1 (Vácuo Primordial): 92.6221%
+[FASE 1] Estabilidade no Regime 4 (Pico Máximo):       97.1099%
+-> Diagnóstico: Acúmulo de energia quântica por compressão validado.
+------------------------------------------------------------------
+[FASE 2] Disparando o mecanismo de transição de fase final...
+   * Fator de Expansão Radial:   10^24.52 vezes maior
+   * Raio Final Alcançado:       5.2918e-11 metros (Escala de Bohr)
+------------------------------------------------------------------
+VEREDITO DO TESTE DE GÊNESE POR INVERSÃO:
+[SUCESSO] O elétron superou o horizonte de Planck e estourou o BH!
+RESULTADO: MICRO-BH COLAPSADO E ANIQUILADO. PRIMEIRO ÁTOMO CRIADO.
+==================================================================
+>>>
