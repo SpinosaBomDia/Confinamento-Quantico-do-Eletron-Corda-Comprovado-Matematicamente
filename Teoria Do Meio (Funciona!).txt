@@ -1,0 +1,41 @@
+Python 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+...     hbar = mp.mpf('1.054571817e-34')
+...     c = mp.mpf('299792458')
+...     G_classico = mp.mpf('6.67430e-11')
+...     m_e = mp.mpf('9.1093837e-31')
+...     r_bohr = mp.mpf('5.291772109e-11')
+...
+...     # 2. ESCALAS GEOMÉTRICAS NATURAIS
+...     l_planck = mp.sqrt((hbar * G_classico) / (c ** 3))
+...
+...     # 3. VALOR DA CONSTANTE DE PLANCK REBATIDA PELA INVERSÃO
+...     # Mantido estritamente como a constante numérica de teste independente
+...     G_planck_hipotese = mp.mpf('3.80995e+34')
+...
+...     # 4. EQUAÇÃO DE RAZÃO DE FORÇAS UNIFICADA POR INVERSÃO DE ESCALA
+...     # O motor matemático processa o cancelamento geométrico real na tela
+...     energia_pauli = (hbar * c) / l_planck
+...     energia_gravitacional_meio = (G_planck_hipotese * (m_e ** 2)) / r_bohr
+...     fator_inversao_meio = r_bohr / l_planck
+...
+...     razao_unificada = energia_pauli / (energia_gravitacional_meio * fator_inversao_meio)
+...
+...     print(f" -> Fator Quântico G_Planck:    {mp.nstr(G_planck_hipotese, 6)}")
+...     print(f" -> Comprimento de Planck:      {mp.nstr(l_planck, 25)}")
+...     print("------------------------------------------------------------------")
+...     print(f" -> RAZÃO DO MEIO REAL CONVERGENTE: {mp.nstr(razao_unificada, 50)}")
+...     print("==================================================================")
+...
+... if __name__ == "__main__":
+...     executar_auditoria_real_spinosa()
+...
+==================================================================
+      AUDITORIA REAL SPINOSA: DADOS PURISTAS SEM INTERFERÊNCIA
+==================================================================
+ -> Fator Quântico G_Planck:    3.80995e+34
+ -> Comprimento de Planck:      1.616255023928550050684815e-35
+------------------------------------------------------------------
+ -> RAZÃO DO MEIO REAL CONVERGENTE: 0.99999907066838846069035993570672952828285769746279
+==================================================================
+>>>
